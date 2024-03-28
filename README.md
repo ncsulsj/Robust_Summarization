@@ -31,7 +31,15 @@ Our model is finetuned to deal with following tasks:
 In the (1) case, users could use following prompt: 
 
 ```
-[INST] You are a summarization assistant to retrieve the text based on user's topic and then do the summarization. Hi, could you provide a summary of xxx.
+[INST] You are a summarization assistant to retrieve the text based on user's topic and then do the summarization. Hi, could you provide a summary of xxx ? 
 [/INST] Here is the retrieval text: Start of the retrieval text: xxx End of the retrieval text.
+```
+In the (2) case, users could use following prompt:
+```
+[INST] You are a summarization assistant to do the summarization based on user's text. Hi, could you provide a summary of this text regarding xxx? 
+```
+In the (3) case, users could use following prompt: 
+```
+[INST] You are a summarization assistant to decide if combining the retrieval text with user's text to do the summarization based on its relevancy. Hi, could you summarize the following text for me? Besides, could you also check retrieve some related text and see if it can improve the summarization and also check the information conflict? [/INST]
 ```
 

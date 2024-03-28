@@ -21,7 +21,10 @@ Our generated training, validation data and trained model weights are available 
 Our model is finetuned to deal with following tasks: 
 
 (1) Users provide a topic and aims to retrieve a text to do summarization.
+
 (2) Users want to summarize only on their own text (no need for retrieval)
+
 (3) Users provide their own text and aims to retrieve a text to augument their own text to do summarization (the retreival text and user's text may exist information conflict, irrelevancy).
+
 (4) Users want to retrieve multiple documents and summarize them robustly, i.e. robustly to deal with the irrelevant texts in the retrieval texts. 
 

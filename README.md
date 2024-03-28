@@ -7,6 +7,7 @@ In this implementation, we encapsulate following (1) How to generate data throug
 
 ## Content 
 1. [Our generated training data and trained model weights](#data_model_weights)
+2. [Inference Example](#Inference_Example)
 
 
 
@@ -14,3 +15,7 @@ In this implementation, we encapsulate following (1) How to generate data throug
 
 ## data_model_weights
 Our generated training, validation data and trained model weights are available through [Data](https://huggingface.co/datasets/zycjlsj123/ragsummdata) and [Model weights](https://huggingface.co/zycjlsj123/rag_summ). 
+
+
+## Inference_Example
+O

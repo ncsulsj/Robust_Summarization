@@ -18,4 +18,8 @@ Our generated training, validation data and trained model weights are available 
 
 
 ## Inference_Example
-O
+Our model is finetuned to deal with following tasks: 
+
+(1)
+(2)
+(3)

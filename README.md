@@ -8,6 +8,7 @@ In this implementation, we encapsulate following (1) How to generate data throug
 ## Content 
 1. [Our generated training data and trained model weights](#data_model_weights)
 2. [Inference Example](#Inference_Example)
+3. [API Calling](#API_Calling)
 
 
 
@@ -46,3 +47,7 @@ In the (4) case, users could use following code to directly get the final summar
 ```
 Use the function, inference_template_s7, located in model_validation/llm_utils.py, the input argument is user's topic, all the retrieval texts as a python list of string and the lora repo.
 ```
+
+## API_Calling
+
+Our model also has the ability to call the API to get the online information from many platforms such as Reddit after it finishs the summarization. [Here is the url of the API](https://www.csc2.ncsu.edu/faculty/healey/social-media-viz/production/)

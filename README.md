@@ -42,4 +42,23 @@ In the (3) case, users could use following prompt:
 ```
 [INST] You are a summarization assistant to decide if combining the retrieval text with user's text to do the summarization based on its relevancy. Hi, could you summarize the following text for me? Besides, could you also check retrieve some related text and see if it can improve the summarization and also check the information conflict? [/INST]
 ```
-
+In the (4) case, users could use following code to directly get the final summarization:
+```
+def inference_template_s8(topic, retrieval_texts, lora_repo, engine):
+    current = 0
+    start = f"[INST] You are a summarization assistant to summarize the documents one by one. Could you summarize the text related to {topic}? There are total {len(retrieval_texts)} documents to summarize.[/INST]Here is the retrieval text:  Start of the retrieval text: {retrieval_texts[current]} End of the retrieval text."
+    result = ""
+    while "final summarization" not in result:
+        prompt = create_test_prompt(lora_path =snapshot_download(repo_id= lora_repo), 
+                             text_list = [start])
+        result = process_requests(engine, prompt, use_lora= True)[0]["pred"]
+        current += 1 
+        if current < len(retrieval_texts):
+            start = f" [INST] In the process of summarizing documents one by one. Here is the retrieval text: Start of the retrieval text: {retrieval_texts[current - 1]} End of the retrieval text. " + result + "[/INST]" + f"Here is the retrieval text: Start of the retrieval text: {retrieval_texts[current]} End of the retrieval text."
+        elif current == len(retrieval_texts):
+            start = f" [INST] In the process of summarizing documents one by one. Here is the retrieval text: Start of the retrieval text: {retrieval_texts[current - 1]} End of the retrieval text. " + result + "[/INST]"
+        else:
+            print('loop finished ========>')
+    parts = result.split("The final summarization is: ", 1)[1]
+    return parts
+```

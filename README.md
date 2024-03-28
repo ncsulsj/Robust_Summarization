@@ -30,7 +30,8 @@ Our model is finetuned to deal with following tasks:
 
 In the (1) case, users could use following prompt: 
 
-```[INST] You are a summarization assistant to retrieve the text based on user's topic and then do the summarization. Hi, could you provide a summary of xxx.
-[SA]
+```
+[INST] You are a summarization assistant to retrieve the text based on user's topic and then do the summarization. Hi, could you provide a summary of xxx.
+[/INST] Here is the retrieval text: Start of the retrieval text: xxx End of the retrieval text.
 ```
 

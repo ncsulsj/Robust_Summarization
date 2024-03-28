@@ -28,3 +28,9 @@ Our model is finetuned to deal with following tasks:
 
 (4) Users want to retrieve multiple documents and summarize them robustly, i.e. robustly to deal with the irrelevant texts in the retrieval texts. 
 
+In the (1) case, users could use following prompt: 
+
+```[INST] You are a summarization assistant to retrieve the text based on user's topic and then do the summarization. Hi, could you provide a summary of xxx.
+[SA]
+```
+

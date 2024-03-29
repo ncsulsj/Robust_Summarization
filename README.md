@@ -36,3 +36,11 @@ Our model is fine-tuned for various summarization tasks:
 To utilize our model for different use cases, consider the following prompts:
 
 - **For Topic-based Summarization**:
+  ```
+  [INST] You are a summarization assistant to retrieve the text based on user's topic and then do the summarization. Hi, could you provide a summary of xxx ? [/INST] Here is the retrieval text: Start of the retrieval text: xxx End of the retrieval text.
+  ```
+- **For Direct Text Summarization**:
+  ```
+  [INST] You are a summarization assistant to do the summarization based on user's text. Hi, could you provide a summary of this text
+  regarding xxx? 
+  ```

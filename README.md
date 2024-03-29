@@ -32,7 +32,9 @@ Our model has been finetuned to address following tasks:
 
 (4) Users provide a topic and seek to obtain multiple relevant texts to do the summarization. 
 
-In (1), our model is capable of discerning the relevance or irrelevance of retrieved texts in relation to the user's specified topic. This includes not only identifying texts that diverge in overall subject matter but also distinguishing between different subtopics. For instance, if the user's focus is on the application of ChatGPT within the financial sector, the model can differentiate texts that, while related to ChatGPT, may cover introductory aspects or applications in unrelated fields such as education, thereby ensuring alignment with the user's specific subtopic of interest.
+In (1), our model is capable of discerning the relevance or irrelevance of retrieved texts in relation to the user's specified topic. This includes not only identifying texts that diverge in overall subject matter but also distinguishing between different subtopics. For instance, if the user's focus is on the application of ChatGPT within the financial sector, the model can differentiate texts that, while related to ChatGPT, may cover introductory aspects or applications in unrelated fields such as education, thereby ensuring alignment with the user's specific subtopic of interest. 
+
+For (2), our model is designed to directly summarize the text provided by the user, without the need for retrieving additional external content.
 
 ## Inference_Example
 

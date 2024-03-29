@@ -7,7 +7,7 @@ In this implementation, we encapsulate following (1) How to generate data throug
 
 ## Content 
 
-1. [Our generated training data and trained model weights](#Data and Model Weights)
+1. [Our generated training data and trained model weights](#Data_and_Model_Weights)
 2. [Model Functionality](#Model_Functionality)
 3. [Inference Example](#Inference_Example)
 4. [API Calling](#API_Calling)

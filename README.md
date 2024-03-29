@@ -23,6 +23,8 @@ Access our meticulously generated training and validation datasets, along with t
 - Training and Validation Data: [Hugging Face Datasets](https://huggingface.co/datasets/zycjlsj123/ragsummdata)
 - Model Weights: [LoRA Model Weights](https://huggingface.co/zycjlsj123/rag_summ)
 
+(To generate the synthetic data, you also need to store OPENAI_API_KEY in a .env file)
+
 ## Model Functionality
 
 Our model is fine-tuned for various summarization tasks:

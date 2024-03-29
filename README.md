@@ -65,5 +65,6 @@ To utilize our model for different use cases, consider the following prompts:
 
 ## API Integration 
 
-Our model is also integrating our custom [text mining APIs](https://www.csc2.ncsu.edu/faculty/healey/social-media-viz/production/) 
+Our model is also integrating our custom [text mining API](https://www.csc2.ncsu.edu/faculty/healey/social-media-viz/production/). If the retrieval text is not relevant with your topic, then you 
+could ask our model `Could you find the online news regarding xx and tell me how people think about it? `. Our model will return the API name and its argument. You could write a webscraped based on the XML of the API to connect. 
 

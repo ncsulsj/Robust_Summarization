@@ -1,6 +1,6 @@
 # Towards a Robust Retrieval-Based Summarization System
 
-Welcome to the official repository for **Towards a Robust Retrieval-Based Summarization System**. This repository houses the original implementation of our robust system designed to enhance retrieval-based summarization processes.
+Welcome to the official repository for **Towards a Robust Retrieval-Based Summarization System**. This repository hosts the original implementation of our robust system designed to enhance retrieval-based summarization processes.
 
 ## Overview
 

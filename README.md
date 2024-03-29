@@ -39,8 +39,7 @@ finds the information conflict between user's text and the retrieval text and th
 
 (4) Users provide a topic and seek to obtain multiple relevant texts to do the summarization. 
 
-
-For (2), our model is designed to directly summarize the text provided by the user, without the need for retrieving additional external content.
+Our model can summarize documents individually, using the context outlined in the paper. At each step of summarization, it blends the context with the current document to craft the summary, while also having the capacity to identify and disregard irrelevant text.Our model can summarize documents individually, using the context outlined in the paper. At each step of summarization, it blends the context with the current document to craft the summary, while also having the capacity to identify and disregard irrelevant text.
 
 ## Inference_Example
 

@@ -19,15 +19,15 @@ Our generated training, validation data and trained model weights are available 
 
 
 ## Inference_Example
-Our model is finetuned to deal with following tasks: 
+Our model has been finetuned to address following tasks: 
 
-(1) Users provide a topic and aims to retrieve a text to do summarization.
+(1) Users input a topic and seek to fetch relevant text for summarization purposes.
 
-(2) Users want to summarize only on their own text (no need for retrieval)
+(2) Users aim to summarize directly on their provided text without the need of retrieval.
 
-(3) Users provide their own text and aims to retrieve a text to augument their own text to do summarization (the retreival text and user's text may exist information conflict, irrelevancy).
+(3) Users submit their own text and fetch supplementary text to enhance their original content before summarization.
 
-(4) Users want to retrieve multiple documents and summarize them robustly, i.e. robustly to deal with the irrelevant texts in the retrieval texts. 
+(4) Users provide a topic and seek to obtain multiple relevant texts to do the summarization. 
 
 In the (1) case, users could use following prompt: 
 

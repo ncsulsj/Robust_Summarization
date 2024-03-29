@@ -28,7 +28,7 @@ Access our meticulously generated training and validation datasets, along with t
 Our model is fine-tuned for various summarization tasks:
 1. **Topic-based Text Retrieval and Summarization**: Capable of identifying the relevancy of retrieval text to a user-defined topic (not only the topic but also the subtopic. i.e. ChatGPT application in Finance is not relevant with ChatGPT introduction or application in Education)
 2. **Direct Text Summarization**: Offers summarization on user-provided texts without external text retrieval.
-3. **Enhanced Summarization with Supplementary Text**: Identifies and integrates relevant supplementary texts with the original content for comprehensive summarization.
+3. **Enhanced Summarization with Supplementary Text**: Identifies and integrates relevant supplementary texts with the original content for comprehensive summarization (also takes care of the case of different subtopic). It also can identify information conflict between them.
 4. **Multi-document Summarization**: Efficiently summarizes multiple documents, filtering out irrelevant content for coherent summaries.
 
 ## Example Inference

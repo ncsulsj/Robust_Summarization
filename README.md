@@ -7,17 +7,20 @@ In this implementation, we encapsulate following (1) How to generate data throug
 
 ## Content 
 
-1. [Our generated training data and trained model weights](#data_model_weights)
-2. [Inference Example](#Inference_Example)
-3. [API Calling](#API_Calling)
+1. [Our generated training data and trained model weights](#Data_and_Model_Weights)
+2. [Model Functionality](#Model_Functionality)
+3. [Inference Example](#Inference_Example)
+4. [API Calling](#API_Calling)
 
 
 
 
 
-## data_model_weights
+## Data_and_Model_Weights
 
 Our generated training, validation data and trained model weights are available through [Data](https://huggingface.co/datasets/zycjlsj123/ragsummdata) and [Lora_Model weights](https://huggingface.co/zycjlsj123/rag_summ). 
+
+## Model_Functionality
 
 
 ## Inference_Example

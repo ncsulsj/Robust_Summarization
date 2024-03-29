@@ -26,13 +26,16 @@ Our model has been finetuned to address following tasks:
 
 (1) Users input a topic and seek to fetch relevant text for summarization purposes.
 
-Our model can tell if the texts it finds match the user's topic, even spotting the difference between main topics and smaller, specific ones. For example, if you're interested in how ChatGPT is used in finance, it can ignore texts that are just introductions or about using ChatGPT in education.
+Our model can tell if the texts it finds match the user's topic, even spotting the difference between main topics and smaller, specific ones. For example, if you're interested in how ChatGPT is used in finance, it can identify texts that are just introductions or about using ChatGPT in education as irrelevant.
 
 (2) Users aim to summarize directly on their provided text without the need of retrieval.
 
 Our model, in this case, is designed to directly summarize the text provided by the user, without the need for retrieving additional external content.
 
 (3) Users submit their own text and fetch supplementary text to enhance their original content before summarization.
+
+Our model not only spots when subtopics don't match between the user's text and the text it retrieves, as mentioned in (1), but also 
+finds the information conflict between user's text and the retrieval text and then ask user to verify it. If the retrieval text and user's text are relevant and there is no information conflict. It will combine them to derive the final summarization.  
 
 (4) Users provide a topic and seek to obtain multiple relevant texts to do the summarization. 
 

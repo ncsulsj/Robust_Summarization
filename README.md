@@ -26,7 +26,7 @@ Access our meticulously generated training and validation datasets, along with t
 ## Model Functionality
 
 Our model is fine-tuned for various summarization tasks:
-1. **Topic-based Text Retrieval and Summarization**: Capable of fetching text relevant to a user-defined topic and discerning between closely related subtopics.
+1. **Topic-based Text Retrieval and Summarization**: Capable of identifying the relevancy of retrieval text to a user-defined topic
 2. **Direct Text Summarization**: Offers summarization on user-provided texts without external text retrieval.
 3. **Enhanced Summarization with Supplementary Text**: Identifies and integrates relevant supplementary texts with the original content for comprehensive summarization.
 4. **Multi-document Summarization**: Efficiently summarizes multiple documents, filtering out irrelevant content for coherent summaries.

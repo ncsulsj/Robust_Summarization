@@ -19,8 +19,8 @@ The system is structured into distinct components to streamline the process of g
 
 ## Data and Model Weights
 
-Access our meticulously generated training and validation datasets, along with the pre-trained model weights, at the following locations:
-- Training Data: [Hugging Face Datasets](https://huggingface.co/datasets/zycjlsj123/ragsummdata)
+Access our meticulously generated training and validation datasets, along with the LoRA model weights, at the following locations:
+- Training and Validation Data: [Hugging Face Datasets](https://huggingface.co/datasets/zycjlsj123/ragsummdata)
 - Model Weights: [LoRA Model Weights](https://huggingface.co/zycjlsj123/rag_summ)
 
 ## Model Functionality

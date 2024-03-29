@@ -65,4 +65,5 @@ To utilize our model for different use cases, consider the following prompts:
 
 ## API Integration 
 
+Our model is also integrating our custom [text mining APIs](https://www.csc2.ncsu.edu/faculty/healey/social-media-viz/production/) 
 

@@ -59,4 +59,4 @@ To utilize our model for different use cases, consider the following prompts:
   ```
   Use the function, inference_template_s7, located in model_validation/llm_utils.py, the input argument is user's topic, all the retrieval texts as a python list of string and the lora repo.
   ```
-  The above function will directly returns you with the final summarization. 
+  The above function will directly return you with the final summarization. 
